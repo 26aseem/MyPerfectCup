@@ -52,32 +52,37 @@
                 </div>
                 <div class="col-lg-12 text-center">
                     <img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt="">
-                    <h2>Post Title
+                    <h2>COCONUT OIL COFFEE
                         <br>
-                        <small>October 13, 2013</small>
+                        <small>October 1, 2019</small>
                     </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
+                    <p>
+                    Start your morning off with this great recipe for hot coffee with coconut oil and butter.
+                    </p>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1" >Read More </button>
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
                     <img class="img-responsive img-border img-full" src="img/slide-2.jpg" alt="">
-                    <h2>Post Title
+                    <h2>IRISH COFFEE
                         <br>
-                        <small>October 13, 2013</small>
+                        <small>October 2, 2019</small>
                     </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
+                    <p>
+                    Take the edge off with a French hot cup of coffee made with Irish whiskey and Irish Cream.
+                    </p>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2" >Read More </button>
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
                     <img class="img-responsive img-border img-full" src="img/slide-3.jpg" alt="">
-                    <h2>Post Title
+                    <h2>FROZEN CARAMEL LATTE
                         <br>
-                        <small>October 13, 2013</small>
+                        <small>October 3, 2019</small>
                     </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
+                    <p>Sweetened with caramel sauce and topped with whipped cream, this will
+                    make you happy any time of day.</p>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3" >Read More </button>
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
@@ -94,15 +99,81 @@
     </div>
     <!-- /.container -->
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                <p>Copyright &copy; The Perfect Cup 2019 | Developed with <i class="material-icons" style="color:red; position:relative; top:5px; ">favorite</i> by @seem Khullar</p>
-                </div>
+
+<!-- Modal 1 -->
+<div id="myModal1" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Coconut Oil Coffee</h4>
+            </div>
+            <div class="modal-body">
+                <p>Sample Text.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dimiss="modal">
+                close</button>
             </div>
         </div>
-    </footer>
+
+    </div>
+</div>          
+
+
+<!-- Modal 2 -->
+<div id="myModal2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Irish Coffee</h4>
+            </div>
+            <div class="modal-body">
+                <p>Irish coffee (Irish: caife Gaelach) is a cocktail consisting of hot coffee, Irish whiskey, and sugar, stirred, and topped with cream. The coffee is drunk through the cream.
+                Irish whiskey and at least one level teaspoon of sugar are poured over black coffee and stirred in until fully dissolved. Thick cream is carefully poured over the back of a spoon initially held just above the surface of the coffee and gradually raised a little until the entire layer is floated.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dimiss="modal">
+                close</button>
+            </div>
+        </div>
+
+    </div>
+</div>          
+
+
+<!-- Modal 3 -->
+<div id="myModal3" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Frozen Caramel Latte</h4>
+            </div>
+            <div class="modal-body">
+                <p>A latte is a coffee drink made with espresso and steamed milk. In some establishments, lattes are served in a glass on a saucer with a napkin to hold the (sometimes hot) glass.
+A latte is sometimes served in a bowl; in Europe, particularly Scandinavia, this is referred to as a café au lait. Other flavorings can be added to the latte to suit the taste of the drinker. Vanilla, chocolate, and caramel are all popular variants.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dimiss="modal">
+                close</button>
+            </div>
+        </div>
+
+    </div>
+</div>          
+
+
+    <?php require_once 'footer.php'?>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
